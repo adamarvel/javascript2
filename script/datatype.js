@@ -16,3 +16,19 @@ isWorking = false
 console.log(typeof(isWorking))
 isLearning =true
 console.log(typeof(isLearning))
+var str= '50'
+console.log(typeof(str))
+//undefined
+var testing= ''
+console.log(typeof(testing))
+var old;
+console.log(typeof(old))
+// object datatypes
+var oldprice= null
+console.log(typeof(oldprice))
+var friends= []
+console.log(typeof(friends))
+var students=new Array()
+console.log(typeof(students))
+var studentNames= {}
+console.log(typeof(studentNames))

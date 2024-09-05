@@ -42,15 +42,14 @@ for(let i=0; i<30; i++){
         break;
         {
         console.log(i)
-
     }
-}
+};
 var friends= ['john', 'dino', 'nancy', 'victory', 'prince', 'fidel', 'kate']
 // for(i=0; i<friends.length; i++){
 //     console.log(friends[i],'we are friends')
 // }
 for(i=0;i<friends.length;i++){
-    if(friends[i]==='kate'){
+    if(friends[i]==='prince'){
         break;
     }
     console.log(friends[i],'were cool')
@@ -67,5 +66,5 @@ for(let i=0; i<=50;i++){
     if(i%2==0){
         continue;
     }
-    console.log(i)
+    console.log(i,'you are the love of the three')
 }

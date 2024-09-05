@@ -83,20 +83,19 @@
 // }
 //  profitLoss()
 //  console.log('Next')
-//  purchasingrice,sellingPrice;
-//  function profitLoss(purchasingrice,sellingPrice){
-//      purchasingrice =Number(prompt('how much did you buy it'))
-//      sellingPrice= Number(prompt('how much did you sell it for'))
-//      if(sellingPrice>purchasingrice)
-//          console.log(`we made profit  ${Math.abs(purchasingrice-sellingPrice)}`)
-//      else
-//      console.log(`you made a loss of ${Math.abs(purchasingrice-sellingPrice)}`)
-//  }
-//  profitLoss(sellingPrice,purchasingprice)
+  function profitLoss(purchasingrice,sellingPrice){
+      purchasingrice =Number(prompt('how much did you buy it'))
+      sellingPrice= Number(prompt('how much did you sell it for'))
+    if(sellingPrice>purchasingrice)
+         console.log(`we made profit  ${Math.abs(purchasingrice-sellingPrice)}`)
+      else
+     console.log(`you made a loss of ${Math.abs(purchasingrice-sellingPrice)}`)
+  }
+  profitLoss()
 function ageCaculator(){
     var yearOfBirth= Number(prompt('please put your year of birth'))
      var Daytime= new Date()
-     currentYear = Daytime.getFullYear
+     currentYear = Daytime.getFullYear()
     // currentYear = 2024
     console.log(currentYear-yearOfBirth)
 }

@@ -18,7 +18,7 @@ var codingschool= prompt('please enter your coding school')
 if(codingschool=='gskills'){
   console.log('coding')
 }
-else if(codingschool == 'gskills'){
+else if(codingschool == 'gskill'){
   console.log('programming')
 }
 else{

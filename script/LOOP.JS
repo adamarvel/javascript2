@@ -20,6 +20,6 @@ var a=5;
   var b=5
   b--
   console.log(b)
-  for(var i=i;i<=20;i++){
+  for(var i=0;i<=20;i++){
     console.log(i)
   }

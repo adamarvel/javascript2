@@ -97,7 +97,7 @@ function ageCaculator(){
      var Daytime= new Date()
      currentYear = Daytime.getFullYear()
     // currentYear = 2024
-    console.log(currentYear-yearOfBirth)
+    console.log(` you are ${currentYear-yearOfBirth} years old`)
 }
 ageCaculator()
 console.log('next')
@@ -105,7 +105,7 @@ var pie,radius;
 function circumference(){
     var pie=22/7
     var radius= Number(prompt('please put the radius of the circle'))
-    console.log(2*pie*radius+'cm' , 'is the circumference of the circle')
+    console.log(2*pie*radius+'cm' , ' is the circumference of the circle ')
 }
 circumference()
 var principle,rate,time;
@@ -113,6 +113,6 @@ function simpleInterest(){
     var principle= Number(prompt('please put the principle price'))
     var rate= Number(prompt('please put the interest rate of the items'))
     var time= Number(prompt('please put the time the interest is expected to grow'))
-    console.log(principle*rate*time/100+ 'is the simple interest of the item')
+    console.log(principle*rate*time/100+'is the simple interest of the item')
 }
 simpleInterest()

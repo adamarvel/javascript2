@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   .container{
+    display: flex;
+   }
+   #special{
+    border-radius: 20px;
+   }
+</style>
+<body>
+    <div class="container">
+        <h1>this is to calculate the circumference of the circle</h1>
+        <form action="" onsubmit="return formSubmit()">
+            <input id="special" type="number" placeholder="please put radius">
+            <img src="images/circle.png" alt="">
+            <textarea name="" id="result"></textarea>
+            <button type="submit">submit</button>
+        </form>
+    </div>
+    <h1>this is for caculation of simple interest</h1>
+    <form action="" onsubmit="return submitForm()">
+        <br><input type="number" id="principle" placeholder="please put the principle"><br>
+        <br><input type="number" name="" id="rate" placeholder="please put the rate at which the interest is expected to grow"><br>
+       <br> <input type="number" id="year" placeholder="please put the number of years"><br>
+       <textarea name="" id="simpleInterest"></textarea>
+       <button type="submit">submit</button>
+    </form>
+    <script src="script/assigned_3.js"></script>
+</body>
+</html>

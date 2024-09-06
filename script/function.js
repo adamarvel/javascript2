@@ -97,7 +97,7 @@ function ageCaculator(){
      var Daytime= new Date()
      currentYear = Daytime.getFullYear()
     // currentYear = 2024
-    console.log(` you are ${currentYear-yearOfBirth} years old`)
+    console.log(`you are ${currentYear-yearOfBirth} years old`)
 }
 ageCaculator()
 console.log('next')
@@ -113,6 +113,6 @@ function simpleInterest(){
     var principle= Number(prompt('please put the principle price'))
     var rate= Number(prompt('please put the interest rate of the items'))
     var time= Number(prompt('please put the time the interest is expected to grow'))
-    console.log(principle*rate*time/100+'is the simple interest of the item')
+    console.log(principle*rate*time/100+ ' is the simple interest of the item')
 }
 simpleInterest()
